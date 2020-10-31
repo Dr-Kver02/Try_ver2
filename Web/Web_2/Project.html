@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mr. Purple</title>
+  <style>
+      header{
+       background-color: blueviolet;  
+       display: flex; 
+       flex-direction: row;
+       height: 75px;
+       width: 700px;
+      }
+      footer{
+    background-color: blueviolet;  
+       display: flex; 
+       height: 75px;
+       width: 700px;
+}
+main{
+    width: 700px;
+    height: 575px;
+     
+}
+
+aside{
+width: 197px;
+height: 300px;
+float: right;
+background-color: rgb(189, 189, 247);
+
+
+}
+article{
+    width: 450px;
+    height: 300px;
+}
+
+      .img{
+          height: 50px;
+          width: 75px;
+          position: relative;
+          left: 20px;
+          top: 12px;
+      }
+      
+.Head{
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40px;
+    top: 3px;
+    }
+    .foottext{
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    left: 20px;
+    top: 25px; }
+
+.first{
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+.second{
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 180px;
+    cursor: pointer;
+}
+.third{
+    position: relative;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 230px;
+    cursor: pointer;
+}
+.four{
+    background-color: rgb(189, 189, 247);
+    height: 35px;
+    width: 700px;
+}
+.fourtext{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(66, 2, 75);
+    position: relative;
+    left: 20px;
+    top: 6px;  
+}
+nav{
+  width: 140px;
+  position: sticky;
+  top: 0px;
+}
+
+nav li{list-style: none; position: relative;}
+nav li > ul {
+  display: none; 
+  position: absolute;
+  left: 125px;
+  top: 10px;
+  color: white;
+
+}
+nav li:hover > ul{display: block;}
+*nav li > ul ul{
+  left: 100%;
+  top: 0;
+}*/
+
+.maintext{
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    background-color:blueviolet;
+    height: 15px; 
+    width: 465px;
+    left: 100px; 
+}
+.asidetext{
+    margin: 20px; 
+}
+.maintext2{
+    margin: 15px;
+}
+.container{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+.c1{
+    width: 200px;
+    height: 170px;
+    background-color: rgb(189, 189, 247);
+    text-align: center;
+}
+.c2{
+    width: 200px;
+    height: 170px;
+    background-color: rgb(189, 189, 247);
+    text-align: center;
+}
+.c3{
+    width: 200px;
+    height: 170px;
+    background-color: rgb(189, 189, 247);
+    text-align: center;
+}
+
+  </style>
+</head>
+
+<body>
+<header>
+    <img class="img" src="img/whale.jpg"/>
+<div class="Head"><h3>HTML texts</h3></div>
+<nav>
+    <ul>
+        <li>
+            <div class=first><h5>HTML texts</h5></div>
+            <ul>
+                <li>
+                    <h5>Where</h5>
+                    <ul>
+                        <li><h5>Here</h5></li>
+                        <li><h5>There</h5></li>
+                    </ul>
+                </li>
+                <li><h5>How</h5></li>
+            </ul>
+        </li>
+    </ul>
+</nav>    
+
+    
+<div class=second><h5>HTML texts</h5></div>
+    <div class=third><h5>HTML texts</h5></div>
+</header>
+<div class=four>
+    <div class=fourtext>Главная>О нас>Контакты</div>
+</div>
+
+<main>
+<div class=maintext><h1>Heading level 1</h1></div>
+<div class=line></div>
+
+    <aside><div class=asidetext>В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.</div></aside>
+    <article>
+        <div class=maintext2> Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст.  </div>
+        </article>
+    <div class=container>
+        <div class=c1>Well</div>
+        <div class=c2>ok</div>
+        <div class=c3>alright</div>
+    </div>    
+</main>
+
+
+<footer>
+    <div class=foottext>2020 Dr.K</div>
+</footer>
+</body>
+</html>
